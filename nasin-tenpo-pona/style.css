@@ -1,0 +1,55 @@
+@font-face {
+  font-family: linja-sike;
+  src: url(linja-sike-5.otf);
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#poki-suno {
+  background-color: rgb(40,42,54);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+#selo-suno {
+  padding: 0px;
+  width: 100%;
+}
+
+#toki, #nanpa, #ante {
+  color: lightblue;
+  font-size: 2vw;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+a {
+  color: lightblue;
+}
+
+#nanpa-tu {
+  display: none;
+}
+
+#date {
+  color: rgb(189,147,249);
+  font-size: 4vw;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#poki-suno-pona {
+  font-family: linja-sike;
+  font-size: 8vw;
+}
+
+#poki-sike-suli {
+  display: none;
+}
