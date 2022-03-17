@@ -30,6 +30,15 @@ body {
   text-align: center;
 }
 
+@media screen and (max-width: 800px) {
+  #toki, #nanpa, #ante {
+    color: lightblue;
+    font-size: 3vh;
+    font-family: sans-serif;
+    text-align: center;
+  }
+}
+
 a {
   color: lightblue;
 }
@@ -45,9 +54,25 @@ a {
   text-align: center;
 }
 
+@media screen and (max-width: 800px) {
+  #date {
+    color: rgb(189,147,249);
+    font-size: 6vh;
+    font-family: sans-serif;
+    text-align: center;
+  }
+}
+
 #poki-suno-pona {
   font-family: linja-sike;
   font-size: 8vw;
+}
+
+@media screen and (max-width: 800px) {
+  #poki-suno-pona {
+    font-family: linja-sike;
+    font-size: 12vh;
+  }
 }
 
 #poki-sike-suli {

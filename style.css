@@ -1,3 +1,21 @@
 body {
   font-family: sans-serif;
+  text-align: center;
+}
+
+.english {
+  display: none;
+}
+
+#okapo {
+  font-size: 3em;
+}
+
+#toki {
+  padding:10px;
+  background-color: lightgray;
+
+  border-style: solid;
+  border-width: 2px;
+  border-color: darkgray;
 }
